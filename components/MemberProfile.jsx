@@ -1,6 +1,6 @@
 import { fetchOrGenerateTokens } from "@/utils/actions";
-import { UserButton } from "@clerk/nextjs";
-import { auth, currentUser } from "@clerk/nextjs/server";
+import { UserButton } from '@clerk/nextjs';
+import { auth, currentUser } from '@clerk/nextjs/server';
 
 const MemberProfile = async () => {
   const user = await currentUser();
